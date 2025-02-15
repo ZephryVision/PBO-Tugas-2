@@ -18,7 +18,7 @@ public class Tugas_2_Boolean {
         int uang = uangInput.nextInt();
         boolean tidakAdaKelas = true;
         
-        boolean jadiBeli = (uang > 1000) && tidakAdaKelas;
+        boolean jadiBeli = (uang > 10000) && tidakAdaKelas;
         
          System.out.println(jadiBeli ? "Beli Gacoan!" : "Jangan dulu!.");
     }
